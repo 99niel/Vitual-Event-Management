@@ -181,7 +181,6 @@ Sign Up: Register a user through the /users/signup endpoint with the role set to
 Login: Authenticate and get a JWT token through the /users/login endpoint.
 Create Event: If you are an organizer, use the /events/create endpoint to create an event.
 Register for Event: As a participant, register for an event using the /registration/register/:id endpoint.
-<<<<<<< HEAD
 Cancel Registration: If necessary, you can cancel your registration using /registration/cancel/:id.
 
 Database Structure
