@@ -1,0 +1,821 @@
+2025-01-31T17:12:36.619Z info: Connected to DB
+2025-01-31T17:12:42.327Z info: Connected to DB
+2025-01-31T17:14:11.246Z info: Connected to DB
+2025-01-31T17:14:15.595Z info: Connected to DB
+2025-01-31T17:14:41.584Z info: Server is running on port 3000
+2025-01-31T17:14:41.998Z info: Connected to DB
+2025-01-31T18:05:48.518Z info: Connected to DB
+2025-01-31T18:05:56.984Z info: Connected to DB
+2025-01-31T18:06:05.242Z info: Connected to DB
+2025-01-31T18:06:05.248Z error: Error connecting to DB: app is not defined
+2025-01-31T18:06:20.730Z info: Connected to DB
+2025-01-31T18:06:20.734Z error: Error connecting to DB: app is not defined
+2025-01-31T18:06:36.590Z info: Connected to DB
+2025-01-31T18:06:36.597Z error: Error connecting to DB: port is not defined
+2025-01-31T18:06:44.358Z info: Connected to DB
+2025-01-31T18:06:44.362Z error: Error connecting to DB: port is not defined
+2025-01-31T18:07:58.306Z info: Connected to DB
+2025-01-31T18:07:58.313Z error: Error connecting to DB: app.listen is not a function
+2025-01-31T18:08:02.414Z info: Connected to DB
+2025-01-31T18:08:02.419Z error: Error connecting to DB: app.listen is not a function
+2025-01-31T18:08:23.923Z info: Connected to DB
+2025-01-31T18:08:23.927Z error: Error connecting to DB: app.listen is not a function
+2025-01-31T18:09:56.983Z info: Connected to DB
+2025-01-31T18:09:56.991Z error: Error connecting to DB: app.listen is not a function
+2025-01-31T18:10:03.773Z info: Connected to DB
+2025-01-31T18:10:03.777Z error: Error connecting to DB: app.listen is not a function
+2025-01-31T18:10:58.496Z info: Connected to DB
+2025-01-31T18:10:58.503Z error: Error connecting to DB: app.listen is not a function
+2025-01-31T18:11:01.141Z info: Connected to DB
+2025-01-31T18:11:01.148Z error: Error connecting to DB: app.listen is not a function
+2025-01-31T18:11:09.829Z info: Connected to DB
+2025-01-31T18:11:09.835Z error: Error connecting to DB: app.listen is not a function
+2025-01-31T18:12:58.837Z error: Error connecting to DB: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+2025-01-31T18:13:14.668Z info: Connected to DB
+2025-01-31T18:13:14.676Z error: Error connecting to DB: app.listen is not a function
+2025-01-31T18:14:00.718Z info: Connected to DB
+2025-01-31T18:14:00.722Z error: Error connecting to DB: app.listen is not a function
+2025-01-31T18:14:29.133Z info: Connected to DB
+2025-01-31T18:14:29.137Z error: Error connecting to DB: app.listen is not a function
+2025-01-31T18:15:46.001Z info: Connected to DB
+2025-01-31T18:15:46.009Z error: Error connecting to DB: app.listen is not a function
+2025-01-31T18:15:50.814Z info: Connected to DB
+2025-01-31T18:15:50.819Z error: Error connecting to DB: app.listen is not a function
+2025-01-31T18:16:59.033Z info: Connected to DB
+2025-01-31T18:16:59.037Z error: Error connecting to DB: app.listen is not a function
+2025-01-31T18:19:55.740Z info: Connected to DB
+2025-01-31T18:19:55.744Z error: Error connecting to DB: app.listen is not a function
+2025-01-31T18:21:23.991Z info: Connected to DB
+2025-01-31T18:21:50.855Z info: Connected to DB
+2025-01-31T18:27:31.193Z info: Connected to DB
+2025-01-31T18:32:53.604Z info: Connected to DB
+2025-01-31T18:36:45.013Z info: Connected to DB
+2025-01-31T18:38:52.716Z info: Connected to DB
+2025-01-31T18:39:11.395Z info: Connected to DB
+2025-01-31T18:39:54.967Z info: Connected to DB
+2025-01-31T18:39:59.346Z info: Connected to DB
+2025-01-31T18:40:01.254Z info: Connected to DB
+2025-01-31T20:07:28.968Z error: Error connecting to DB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2025-01-31T20:08:16.897Z error: Error connecting to DB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2025-01-31T20:09:41.939Z error: Error connecting to DB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2025-01-31T20:11:21.697Z info: Connected to DB
+2025-02-01T03:41:37.023Z info: Connected to DB
+2025-02-01T05:46:19.330Z info: Connected to DB
+2025-02-01T05:48:56.144Z info: Connected to DB
+2025-02-01T05:50:10.416Z info: Connected to DB
+2025-02-01T05:59:40.117Z info: Connected to DB
+2025-02-01T06:07:17.389Z info: Connected to DB
+2025-02-01T06:08:48.058Z info: Connected to DB
+2025-02-01T06:12:27.672Z info: Connected to DB
+2025-02-01T06:13:14.558Z info: Connected to DB
+2025-02-01T06:16:16.198Z info: Connected to DB
+2025-02-01T06:19:58.244Z info: Connected to DB
+2025-02-01T06:21:16.189Z info: Connected to DB
+2025-02-01T06:21:18.332Z info: Connected to DB
+2025-02-01T06:23:05.920Z info: Connected to DB
+2025-02-01T06:23:15.955Z info: Connected to DB
+2025-02-01T06:25:02.853Z info: Connected to DB
+2025-02-01T06:26:10.731Z info: {
+  _id: new ObjectId('679db7e16670ae00cda38b8b'),
+  name: 'Nitish bandagar',
+  email: 'nitishbandagar@gmail.com',
+  password: '$2b$10$Q3.mgY7LM8YWQRtYwQvE1O8/0j7dLv.TZ4Hw1cg25.eOpVaoP2Ljq',
+  role: 'organizer',
+  createdAt: 2025-02-01T05:57:53.892Z,
+  updatedAt: 2025-02-01T05:57:53.892Z,
+  __v: 0
+}
+2025-02-01T06:27:28.322Z info: Connected to DB
+2025-02-01T06:27:46.487Z info: Connected to DB
+2025-02-01T06:27:51.288Z info: {
+  _id: new ObjectId('679db7e16670ae00cda38b8b'),
+  name: 'Nitish bandagar',
+  email: 'nitishbandagar@gmail.com',
+  password: '$2b$10$Q3.mgY7LM8YWQRtYwQvE1O8/0j7dLv.TZ4Hw1cg25.eOpVaoP2Ljq',
+  role: 'organizer',
+  createdAt: 2025-02-01T05:57:53.892Z,
+  updatedAt: 2025-02-01T05:57:53.892Z,
+  __v: 0
+}
+2025-02-01T06:29:14.813Z info: Connected to DB
+2025-02-01T06:29:22.741Z info: {
+  _id: new ObjectId('679db7e16670ae00cda38b8b'),
+  name: 'Nitish bandagar',
+  email: 'nitishbandagar@gmail.com',
+  password: '$2b$10$Q3.mgY7LM8YWQRtYwQvE1O8/0j7dLv.TZ4Hw1cg25.eOpVaoP2Ljq',
+  role: 'organizer',
+  createdAt: 2025-02-01T05:57:53.892Z,
+  updatedAt: 2025-02-01T05:57:53.892Z,
+  __v: 0
+}
+2025-02-01T06:30:18.062Z info: Connected to DB
+2025-02-01T06:30:19.565Z info: Connected to DB
+2025-02-01T06:30:29.361Z info: {
+  _id: new ObjectId('679db7e16670ae00cda38b8b'),
+  name: 'Nitish bandagar',
+  email: 'nitishbandagar@gmail.com',
+  password: '$2b$10$Q3.mgY7LM8YWQRtYwQvE1O8/0j7dLv.TZ4Hw1cg25.eOpVaoP2Ljq',
+  role: 'organizer',
+  createdAt: 2025-02-01T05:57:53.892Z,
+  updatedAt: 2025-02-01T05:57:53.892Z,
+  __v: 0
+}
+2025-02-01T06:30:44.760Z info: Connected to DB
+2025-02-01T06:30:50.401Z info: {
+  _id: new ObjectId('679db7e16670ae00cda38b8b'),
+  name: 'Nitish bandagar',
+  email: 'nitishbandagar@gmail.com',
+  password: '$2b$10$Q3.mgY7LM8YWQRtYwQvE1O8/0j7dLv.TZ4Hw1cg25.eOpVaoP2Ljq',
+  role: 'organizer',
+  createdAt: 2025-02-01T05:57:53.892Z,
+  updatedAt: 2025-02-01T05:57:53.892Z,
+  __v: 0
+}
+2025-02-01T06:33:56.693Z info: Connected to DB
+2025-02-01T06:34:06.207Z info: Connected to DB
+2025-02-01T06:34:14.742Z info: JWT_SECRET:
+2025-02-01T06:34:14.743Z info: ERROR: JWT_SECRET is not defined in the environment variables.
+2025-02-01T06:46:15.072Z info: Connected to DB
+2025-02-01T06:46:19.345Z info: JWT_SECRET:
+2025-02-01T06:48:48.194Z info: Connected to DB
+2025-02-01T06:50:37.029Z info: Connected to DB
+2025-02-01T06:50:47.134Z info: JWT_SECRET:
+2025-02-01T06:52:15.067Z info: Connected to DB
+2025-02-01T06:54:07.729Z info: Connected to DB
+2025-02-01T06:54:10.092Z info: Connected to DB
+2025-02-01T06:56:10.599Z info: Connected to DB
+2025-02-01T06:56:15.325Z info: Connected to DB
+2025-02-01T06:57:24.418Z info: Connected to DB
+2025-02-01T06:58:03.121Z info: Connected to DB
+2025-02-01T07:00:09.579Z info: Connected to DB
+2025-02-01T07:00:53.124Z info: Fetching user with id:
+2025-02-01T07:01:07.531Z info: Fetching user with id:
+2025-02-01T07:27:45.600Z info: Connected to DB
+2025-02-01T07:29:46.096Z info: Connected to DB
+2025-02-01T07:32:31.168Z info: Connected to DB
+2025-02-01T07:35:15.881Z info: Connected to DB
+2025-02-01T07:38:12.034Z info: Connected to DB
+2025-02-01T07:38:24.493Z info: JWT_SECRET:
+2025-02-01T07:43:48.492Z info: Connected to DB
+2025-02-01T07:44:42.772Z info: Fetching user with id:
+2025-02-01T07:47:57.892Z info: JWT_SECRET:
+2025-02-01T07:49:40.100Z info: Connected to DB
+2025-02-01T07:50:09.204Z info: {
+  _id: new ObjectId('679db7e16670ae00cda38b8b'),
+  name: 'Nitish bandagar',
+  email: 'nitishbandagar@gmail.com',
+  password: '$2b$10$Q3.mgY7LM8YWQRtYwQvE1O8/0j7dLv.TZ4Hw1cg25.eOpVaoP2Ljq',
+  role: 'organizer',
+  createdAt: 2025-02-01T05:57:53.892Z,
+  updatedAt: 2025-02-01T05:57:53.892Z,
+  __v: 0
+}
+2025-02-01T07:51:41.522Z info: Connected to DB
+2025-02-01T08:06:11.901Z info: Connected to DB
+2025-02-01T08:06:21.783Z info: Connected to DB
+2025-02-01T08:07:07.048Z info: Connected to DB
+2025-02-01T08:07:19.307Z info: Connected to DB
+2025-02-01T08:07:24.095Z info: Connected to DB
+2025-02-01T08:08:53.394Z info: JWT_SECRET:
+2025-02-01T08:09:03.140Z info: {
+  _id: new ObjectId('679db7e16670ae00cda38b8b'),
+  name: 'Nitish bandagar',
+  email: 'nitishbandagar@gmail.com',
+  password: '$2b$10$Q3.mgY7LM8YWQRtYwQvE1O8/0j7dLv.TZ4Hw1cg25.eOpVaoP2Ljq',
+  role: 'organizer',
+  createdAt: 2025-02-01T05:57:53.892Z,
+  updatedAt: 2025-02-01T05:57:53.892Z,
+  __v: 0
+}
+2025-02-01T08:09:27.204Z info: Connected to DB
+2025-02-01T08:09:41.523Z info: Connected to DB
+2025-02-01T08:09:47.403Z info: {
+  _id: new ObjectId('679db7e16670ae00cda38b8b'),
+  name: 'Nitish bandagar',
+  email: 'nitishbandagar@gmail.com',
+  password: '$2b$10$Q3.mgY7LM8YWQRtYwQvE1O8/0j7dLv.TZ4Hw1cg25.eOpVaoP2Ljq',
+  role: 'organizer',
+  createdAt: 2025-02-01T05:57:53.892Z,
+  updatedAt: 2025-02-01T05:57:53.892Z,
+  __v: 0
+}
+2025-02-01T08:10:45.707Z info: Fetching user with id:
+2025-02-01T08:12:00.074Z info: Connected to DB
+2025-02-01T08:13:50.082Z info: Connected to DB
+2025-02-01T08:14:08.073Z info: JWT_SECRET:
+2025-02-01T08:14:22.021Z info: {
+  _id: new ObjectId('679db7e16670ae00cda38b8b'),
+  name: 'Nitish bandagar',
+  email: 'nitishbandagar@gmail.com',
+  password: '$2b$10$Q3.mgY7LM8YWQRtYwQvE1O8/0j7dLv.TZ4Hw1cg25.eOpVaoP2Ljq',
+  role: 'organizer',
+  createdAt: 2025-02-01T05:57:53.892Z,
+  updatedAt: 2025-02-01T05:57:53.892Z,
+  __v: 0
+}
+2025-02-01T08:16:44.036Z info: JWT_SECRET:
+2025-02-01T08:18:59.663Z info: Connected to DB
+2025-02-01T08:19:21.571Z info: Connected to DB
+2025-02-01T08:19:41.365Z info: JWT_SECRET:
+2025-02-01T08:20:15.628Z info: JWT_SECRET:
+2025-02-01T08:20:20.160Z info: {
+  _id: new ObjectId('679db7e16670ae00cda38b8b'),
+  name: 'Nitish bandagar',
+  email: 'nitishbandagar@gmail.com',
+  password: '$2b$10$Q3.mgY7LM8YWQRtYwQvE1O8/0j7dLv.TZ4Hw1cg25.eOpVaoP2Ljq',
+  role: 'organizer',
+  createdAt: 2025-02-01T05:57:53.892Z,
+  updatedAt: 2025-02-01T05:57:53.892Z,
+  __v: 0
+}
+2025-02-01T08:23:16.469Z info: Connected to DB
+2025-02-01T08:24:40.957Z info: {
+  _id: new ObjectId('679db7e16670ae00cda38b8b'),
+  name: 'Nitish bandagar',
+  email: 'nitishbandagar@gmail.com',
+  password: '$2b$10$Q3.mgY7LM8YWQRtYwQvE1O8/0j7dLv.TZ4Hw1cg25.eOpVaoP2Ljq',
+  role: 'organizer',
+  createdAt: 2025-02-01T05:57:53.892Z,
+  updatedAt: 2025-02-01T05:57:53.892Z,
+  __v: 0
+}
+2025-02-01T08:27:22.325Z info: {
+  _id: new ObjectId('679db7e16670ae00cda38b8b'),
+  name: 'Nitish bandagar',
+  email: 'nitishbandagar@gmail.com',
+  password: '$2b$10$Q3.mgY7LM8YWQRtYwQvE1O8/0j7dLv.TZ4Hw1cg25.eOpVaoP2Ljq',
+  role: 'organizer',
+  createdAt: 2025-02-01T05:57:53.892Z,
+  updatedAt: 2025-02-01T05:57:53.892Z,
+  __v: 0
+}
+2025-02-01T08:28:07.717Z info: JWT_SECRET:
+2025-02-01T08:28:39.952Z info: {
+  _id: new ObjectId('679db7e16670ae00cda38b8b'),
+  name: 'Nitish bandagar',
+  email: 'nitishbandagar@gmail.com',
+  password: '$2b$10$Q3.mgY7LM8YWQRtYwQvE1O8/0j7dLv.TZ4Hw1cg25.eOpVaoP2Ljq',
+  role: 'organizer',
+  createdAt: 2025-02-01T05:57:53.892Z,
+  updatedAt: 2025-02-01T05:57:53.892Z,
+  __v: 0
+}
+2025-02-01T08:34:41.135Z info: Connected to DB
+2025-02-01T08:39:20.042Z info: Connected to DB
+2025-02-01T08:39:31.671Z info: JWT_SECRET:
+2025-02-01T08:39:44.867Z info: {
+  _id: new ObjectId('679db7e16670ae00cda38b8b'),
+  name: 'Nitish bandagar',
+  email: 'nitishbandagar@gmail.com',
+  password: '$2b$10$Q3.mgY7LM8YWQRtYwQvE1O8/0j7dLv.TZ4Hw1cg25.eOpVaoP2Ljq',
+  role: 'organizer',
+  createdAt: 2025-02-01T05:57:53.892Z,
+  updatedAt: 2025-02-01T05:57:53.892Z,
+  __v: 0
+}
+2025-02-01T08:42:41.413Z info: Connected to DB
+2025-02-01T08:43:01.951Z info: JWT_SECRET:
+2025-02-01T08:43:05.935Z info: null
+2025-02-01T08:43:53.824Z info: Connected to DB
+2025-02-01T08:44:05.114Z info: JWT_SECRET:
+2025-02-01T08:44:11.373Z info: null
+2025-02-01T08:52:06.915Z info: Connected to DB
+2025-02-01T08:52:13.870Z info: {
+  _id: new ObjectId('679db7e16670ae00cda38b8b'),
+  name: 'Nitish bandagar',
+  email: 'nitishbandagar@gmail.com',
+  password: '$2b$10$Q3.mgY7LM8YWQRtYwQvE1O8/0j7dLv.TZ4Hw1cg25.eOpVaoP2Ljq',
+  role: 'organizer',
+  createdAt: 2025-02-01T05:57:53.892Z,
+  updatedAt: 2025-02-01T05:57:53.892Z,
+  __v: 0
+}
+2025-02-01T08:53:49.382Z info: Connected to DB
+2025-02-01T08:53:50.922Z info: Connected to DB
+2025-02-01T08:54:04.663Z info: {
+  _id: new ObjectId('679db7e16670ae00cda38b8b'),
+  name: 'Nitish bandagar',
+  email: 'nitishbandagar@gmail.com',
+  password: '$2b$10$Q3.mgY7LM8YWQRtYwQvE1O8/0j7dLv.TZ4Hw1cg25.eOpVaoP2Ljq',
+  role: 'organizer',
+  createdAt: 2025-02-01T05:57:53.892Z,
+  updatedAt: 2025-02-01T05:57:53.892Z,
+  __v: 0
+}
+2025-02-01T08:55:12.172Z info: Connected to DB
+2025-02-01T08:55:22.692Z info: {
+  _id: new ObjectId('679db7e16670ae00cda38b8b'),
+  name: 'Nitish bandagar',
+  email: 'nitishbandagar@gmail.com',
+  password: '$2b$10$Q3.mgY7LM8YWQRtYwQvE1O8/0j7dLv.TZ4Hw1cg25.eOpVaoP2Ljq',
+  role: 'organizer',
+  createdAt: 2025-02-01T05:57:53.892Z,
+  updatedAt: 2025-02-01T05:57:53.892Z,
+  __v: 0
+}
+2025-02-01T08:58:04.282Z info: Connected to DB
+2025-02-01T08:58:50.462Z info: {
+  _id: new ObjectId('679db7e16670ae00cda38b8b'),
+  name: 'Nitish bandagar',
+  email: 'nitishbandagar@gmail.com',
+  password: '$2b$10$Q3.mgY7LM8YWQRtYwQvE1O8/0j7dLv.TZ4Hw1cg25.eOpVaoP2Ljq',
+  role: 'organizer',
+  createdAt: 2025-02-01T05:57:53.892Z,
+  updatedAt: 2025-02-01T05:57:53.892Z,
+  __v: 0
+}
+2025-02-01T09:01:56.671Z info: Connected to DB
+2025-02-01T09:03:20.133Z info: Connected to DB
+2025-02-01T09:04:26.148Z info: Connected to DB
+2025-02-01T09:04:43.839Z info: {
+  _id: new ObjectId('679db7e16670ae00cda38b8b'),
+  name: 'Nitish bandagar',
+  email: 'nitishbandagar@gmail.com',
+  password: '$2b$10$Q3.mgY7LM8YWQRtYwQvE1O8/0j7dLv.TZ4Hw1cg25.eOpVaoP2Ljq',
+  role: 'organizer',
+  createdAt: 2025-02-01T05:57:53.892Z,
+  updatedAt: 2025-02-01T05:57:53.892Z,
+  __v: 0
+}
+2025-02-01T09:05:41.610Z info: {
+  _id: new ObjectId('679db7e16670ae00cda38b8b'),
+  name: 'Nitish bandagar',
+  email: 'nitishbandagar@gmail.com',
+  password: '$2b$10$Q3.mgY7LM8YWQRtYwQvE1O8/0j7dLv.TZ4Hw1cg25.eOpVaoP2Ljq',
+  role: 'organizer',
+  createdAt: 2025-02-01T05:57:53.892Z,
+  updatedAt: 2025-02-01T05:57:53.892Z,
+  __v: 0
+}
+2025-02-01T10:17:52.783Z info: {
+  _id: new ObjectId('679dbb821a8ac42e7c8686ba'),
+  name: 'Ranjitha',
+  email: 'ranjitha@gmail.com',
+  password: '$2b$10$WCSWqDxzhklxsw.rfQ8Wcuqhgy1K2ILzWDOcO3Gaxw9xjkglouzAG',
+  role: 'participant',
+  createdAt: 2025-02-01T06:13:22.658Z,
+  updatedAt: 2025-02-01T06:13:22.658Z,
+  __v: 0
+}
+2025-02-01T10:20:30.746Z info: {
+  _id: new ObjectId('679dbb821a8ac42e7c8686ba'),
+  name: 'Ranjitha',
+  email: 'ranjitha@gmail.com',
+  password: '$2b$10$WCSWqDxzhklxsw.rfQ8Wcuqhgy1K2ILzWDOcO3Gaxw9xjkglouzAG',
+  role: 'participant',
+  createdAt: 2025-02-01T06:13:22.658Z,
+  updatedAt: 2025-02-01T06:13:22.658Z,
+  __v: 0
+}
+2025-02-01T10:21:31.916Z info: {
+  _id: new ObjectId('679db7e16670ae00cda38b8b'),
+  name: 'Nitish bandagar',
+  email: 'nitishbandagar@gmail.com',
+  password: '$2b$10$Q3.mgY7LM8YWQRtYwQvE1O8/0j7dLv.TZ4Hw1cg25.eOpVaoP2Ljq',
+  role: 'organizer',
+  createdAt: 2025-02-01T05:57:53.892Z,
+  updatedAt: 2025-02-01T05:57:53.892Z,
+  __v: 0
+}
+2025-02-01T12:57:37.401Z info: Connected to DB
+2025-02-01T13:00:14.458Z info: Connected to DB
+2025-02-01T13:00:50.952Z info: Connected to DB
+2025-02-01T13:00:54.083Z info: Connected to DB
+2025-02-01T13:03:35.840Z info: Connected to DB
+2025-02-01T13:05:43.368Z info: Connected to DB
+2025-02-01T13:05:53.940Z info: Connected to DB
+2025-02-01T13:06:13.218Z info: Connected to DB
+2025-02-01T13:06:55.126Z info: Connected to DB
+2025-02-01T17:56:27.456Z info: Connected to DB
+2025-02-02T02:56:39.378Z info: {
+  _id: new ObjectId('679db7e16670ae00cda38b8b'),
+  name: 'Nitish bandagar',
+  email: 'nitishbandagar@gmail.com',
+  password: '$2b$10$Q3.mgY7LM8YWQRtYwQvE1O8/0j7dLv.TZ4Hw1cg25.eOpVaoP2Ljq',
+  role: 'organizer',
+  createdAt: 2025-02-01T05:57:53.892Z,
+  updatedAt: 2025-02-01T05:57:53.892Z,
+  __v: 0
+}
+2025-02-02T02:56:58.665Z info: {
+  _id: new ObjectId('679db7e16670ae00cda38b8b'),
+  name: 'Nitish bandagar',
+  email: 'nitishbandagar@gmail.com',
+  password: '$2b$10$Q3.mgY7LM8YWQRtYwQvE1O8/0j7dLv.TZ4Hw1cg25.eOpVaoP2Ljq',
+  role: 'organizer',
+  createdAt: 2025-02-01T05:57:53.892Z,
+  updatedAt: 2025-02-01T05:57:53.892Z,
+  __v: 0
+}
+2025-02-02T02:57:18.760Z info: {
+  _id: new ObjectId('679db7e16670ae00cda38b8b'),
+  name: 'Nitish bandagar',
+  email: 'nitishbandagar@gmail.com',
+  password: '$2b$10$Q3.mgY7LM8YWQRtYwQvE1O8/0j7dLv.TZ4Hw1cg25.eOpVaoP2Ljq',
+  role: 'organizer',
+  createdAt: 2025-02-01T05:57:53.892Z,
+  updatedAt: 2025-02-01T05:57:53.892Z,
+  __v: 0
+}
+2025-02-02T03:03:49.685Z info: Connected to DB
+2025-02-02T03:05:19.577Z info: Fetching user with id:
+2025-02-02T03:07:22.488Z info: Connected to DB
+2025-02-02T03:14:01.147Z info: Connected to DB
+2025-02-02T03:15:53.256Z info: Connected to DB
+2025-02-02T03:17:55.605Z info: {
+  _id: new ObjectId('679db7e16670ae00cda38b8b'),
+  name: 'Nitish bandagar',
+  email: 'nitishbandagar@gmail.com',
+  password: '$2b$10$Q3.mgY7LM8YWQRtYwQvE1O8/0j7dLv.TZ4Hw1cg25.eOpVaoP2Ljq',
+  role: 'organizer',
+  createdAt: 2025-02-01T05:57:53.892Z,
+  updatedAt: 2025-02-01T05:57:53.892Z,
+  __v: 0
+}
+2025-02-02T03:18:17.403Z info: Connected to DB
+2025-02-02T03:18:57.522Z info: events.controllers.js
+2025-02-02T03:18:58.087Z info: Connected to DB
+2025-02-02T03:19:30.543Z info: Connected to DB
+2025-02-02T03:21:52.678Z info: Connected to DB
+2025-02-02T03:22:10.529Z info: Connected to DB
+2025-02-02T03:22:31.679Z info: Connected to DB
+2025-02-02T03:24:04.286Z info: Connected to DB
+2025-02-02T03:25:27.222Z info: Connected to DB
+2025-02-02T03:25:54.393Z info: Connected to DB
+2025-02-02T03:27:19.348Z info: Connected to DB
+2025-02-02T03:29:32.823Z info: Connected to DB
+2025-02-02T03:30:20.058Z info: Connected to DB
+2025-02-02T03:30:36.574Z info: Connected to DB
+2025-02-02T03:30:52.593Z info: Connected to DB
+2025-02-02T03:32:17.903Z info: Events controller loaded
+2025-02-02T03:32:18.328Z info: Connected to DB
+2025-02-02T03:32:57.661Z info: {
+  _id: new ObjectId('679db7e16670ae00cda38b8b'),
+  name: 'Nitish bandagar',
+  email: 'nitishbandagar@gmail.com',
+  password: '$2b$10$Q3.mgY7LM8YWQRtYwQvE1O8/0j7dLv.TZ4Hw1cg25.eOpVaoP2Ljq',
+  role: 'organizer',
+  createdAt: 2025-02-01T05:57:53.892Z,
+  updatedAt: 2025-02-01T05:57:53.892Z,
+  __v: 0
+}
+2025-02-02T03:34:50.403Z info: Fetching all events
+2025-02-02T03:34:50.440Z info: {
+  _id: new ObjectId('679de3e53c09d9d11eddedad'),
+  date: 2025-02-10T00:00:00.000Z,
+  time: '05:05 AM',
+  description: 'SQL Class',
+  participants: 50,
+  createdAt: 2025-02-01T09:05:41.619Z,
+  updatedAt: 2025-02-01T09:05:41.619Z,
+  __v: 0
+},{
+  _id: new ObjectId('679df5ab3c09d9d11eddedb7'),
+  date: 2025-02-10T00:00:00.000Z,
+  time: '05:05 AM',
+  description: 'SQL Class',
+  participants: 50,
+  createdAt: 2025-02-01T10:21:31.922Z,
+  updatedAt: 2025-02-01T10:21:31.922Z,
+  __v: 0
+},{
+  _id: new ObjectId('679edee7f5bb1629eed147c5'),
+  date: 2025-02-15T00:00:00.000Z,
+  time: '05:05 AM',
+  description: 'Hadoop Classes',
+  participants: 50,
+  createdAt: 2025-02-02T02:56:39.399Z,
+  updatedAt: 2025-02-02T02:56:39.399Z,
+  __v: 0
+},{
+  _id: new ObjectId('679edefaf5bb1629eed147c9'),
+  date: 2025-02-09T00:00:00.000Z,
+  time: '09:05 AM',
+  description: 'Node Js Classes',
+  participants: 50,
+  createdAt: 2025-02-02T02:56:58.673Z,
+  updatedAt: 2025-02-02T02:56:58.673Z,
+  __v: 0
+},{
+  _id: new ObjectId('679edf0ef5bb1629eed147cd'),
+  date: 2025-02-20T00:00:00.000Z,
+  time: '012:00 AM',
+  description: 'React Js Classes',
+  participants: 50,
+  createdAt: 2025-02-02T02:57:18.764Z,
+  updatedAt: 2025-02-02T02:57:18.764Z,
+  __v: 0
+},{
+  _id: new ObjectId('679ee3e3af8a3ac391a7c3cf'),
+  date: 2025-03-08T00:00:00.000Z,
+  time: '01:00 AM',
+  description: 'Skecthing Classes',
+  participants: 50,
+  createdAt: 2025-02-02T03:17:55.631Z,
+  updatedAt: 2025-02-02T03:17:55.631Z,
+  __v: 0
+},{
+  _id: new ObjectId('679ee769228e38541d014dac'),
+  date: 2025-02-08T00:00:00.000Z,
+  time: '09:00 AM',
+  description: 'Angular Classes',
+  participants: 50,
+  createdAt: 2025-02-02T03:32:57.686Z,
+  updatedAt: 2025-02-02T03:32:57.686Z,
+  __v: 0
+}
+2025-02-02T03:35:37.791Z info: Events controller loaded
+2025-02-02T03:35:38.228Z info: Connected to DB
+2025-02-02T03:35:57.635Z info: Events controller loaded
+2025-02-02T03:35:58.062Z info: Connected to DB
+2025-02-02T03:36:38.204Z info: Events controller loaded
+2025-02-02T03:36:38.625Z info: Connected to DB
+2025-02-02T03:38:15.085Z info: Fetching all events
+2025-02-02T03:38:15.137Z info: {
+  _id: new ObjectId('679de3e53c09d9d11eddedad'),
+  date: 2025-02-10T00:00:00.000Z,
+  time: '05:05 AM',
+  description: 'SQL Class',
+  participants: 50,
+  createdAt: 2025-02-01T09:05:41.619Z,
+  updatedAt: 2025-02-01T09:05:41.619Z,
+  __v: 0
+},{
+  _id: new ObjectId('679df5ab3c09d9d11eddedb7'),
+  date: 2025-02-10T00:00:00.000Z,
+  time: '05:05 AM',
+  description: 'SQL Class',
+  participants: 50,
+  createdAt: 2025-02-01T10:21:31.922Z,
+  updatedAt: 2025-02-01T10:21:31.922Z,
+  __v: 0
+},{
+  _id: new ObjectId('679edee7f5bb1629eed147c5'),
+  date: 2025-02-15T00:00:00.000Z,
+  time: '05:05 AM',
+  description: 'Hadoop Classes',
+  participants: 50,
+  createdAt: 2025-02-02T02:56:39.399Z,
+  updatedAt: 2025-02-02T02:56:39.399Z,
+  __v: 0
+},{
+  _id: new ObjectId('679edefaf5bb1629eed147c9'),
+  date: 2025-02-09T00:00:00.000Z,
+  time: '09:05 AM',
+  description: 'Node Js Classes',
+  participants: 50,
+  createdAt: 2025-02-02T02:56:58.673Z,
+  updatedAt: 2025-02-02T02:56:58.673Z,
+  __v: 0
+},{
+  _id: new ObjectId('679edf0ef5bb1629eed147cd'),
+  date: 2025-02-20T00:00:00.000Z,
+  time: '012:00 AM',
+  description: 'React Js Classes',
+  participants: 50,
+  createdAt: 2025-02-02T02:57:18.764Z,
+  updatedAt: 2025-02-02T02:57:18.764Z,
+  __v: 0
+},{
+  _id: new ObjectId('679ee3e3af8a3ac391a7c3cf'),
+  date: 2025-03-08T00:00:00.000Z,
+  time: '01:00 AM',
+  description: 'Skecthing Classes',
+  participants: 50,
+  createdAt: 2025-02-02T03:17:55.631Z,
+  updatedAt: 2025-02-02T03:17:55.631Z,
+  __v: 0
+},{
+  _id: new ObjectId('679ee769228e38541d014dac'),
+  date: 2025-02-08T00:00:00.000Z,
+  time: '09:00 AM',
+  description: 'Angular Classes',
+  participants: 50,
+  createdAt: 2025-02-02T03:32:57.686Z,
+  updatedAt: 2025-02-02T03:32:57.686Z,
+  __v: 0
+}
+2025-02-02T03:38:36.526Z info: Fetching all events
+2025-02-02T03:38:36.564Z info: {
+  _id: new ObjectId('679de3e53c09d9d11eddedad'),
+  date: 2025-02-10T00:00:00.000Z,
+  time: '05:05 AM',
+  description: 'SQL Class',
+  participants: 50,
+  createdAt: 2025-02-01T09:05:41.619Z,
+  updatedAt: 2025-02-01T09:05:41.619Z,
+  __v: 0
+},{
+  _id: new ObjectId('679df5ab3c09d9d11eddedb7'),
+  date: 2025-02-10T00:00:00.000Z,
+  time: '05:05 AM',
+  description: 'SQL Class',
+  participants: 50,
+  createdAt: 2025-02-01T10:21:31.922Z,
+  updatedAt: 2025-02-01T10:21:31.922Z,
+  __v: 0
+},{
+  _id: new ObjectId('679edee7f5bb1629eed147c5'),
+  date: 2025-02-15T00:00:00.000Z,
+  time: '05:05 AM',
+  description: 'Hadoop Classes',
+  participants: 50,
+  createdAt: 2025-02-02T02:56:39.399Z,
+  updatedAt: 2025-02-02T02:56:39.399Z,
+  __v: 0
+},{
+  _id: new ObjectId('679edefaf5bb1629eed147c9'),
+  date: 2025-02-09T00:00:00.000Z,
+  time: '09:05 AM',
+  description: 'Node Js Classes',
+  participants: 50,
+  createdAt: 2025-02-02T02:56:58.673Z,
+  updatedAt: 2025-02-02T02:56:58.673Z,
+  __v: 0
+},{
+  _id: new ObjectId('679edf0ef5bb1629eed147cd'),
+  date: 2025-02-20T00:00:00.000Z,
+  time: '012:00 AM',
+  description: 'React Js Classes',
+  participants: 50,
+  createdAt: 2025-02-02T02:57:18.764Z,
+  updatedAt: 2025-02-02T02:57:18.764Z,
+  __v: 0
+},{
+  _id: new ObjectId('679ee3e3af8a3ac391a7c3cf'),
+  date: 2025-03-08T00:00:00.000Z,
+  time: '01:00 AM',
+  description: 'Skecthing Classes',
+  participants: 50,
+  createdAt: 2025-02-02T03:17:55.631Z,
+  updatedAt: 2025-02-02T03:17:55.631Z,
+  __v: 0
+},{
+  _id: new ObjectId('679ee769228e38541d014dac'),
+  date: 2025-02-08T00:00:00.000Z,
+  time: '09:00 AM',
+  description: 'Angular Classes',
+  participants: 50,
+  createdAt: 2025-02-02T03:32:57.686Z,
+  updatedAt: 2025-02-02T03:32:57.686Z,
+  __v: 0
+}
+2025-02-02T03:40:23.569Z info: Fetching all events
+2025-02-02T03:40:23.608Z info: {
+  _id: new ObjectId('679de3e53c09d9d11eddedad'),
+  date: 2025-02-10T00:00:00.000Z,
+  time: '05:05 AM',
+  description: 'SQL Class',
+  participants: 50,
+  createdAt: 2025-02-01T09:05:41.619Z,
+  updatedAt: 2025-02-01T09:05:41.619Z,
+  __v: 0
+},{
+  _id: new ObjectId('679df5ab3c09d9d11eddedb7'),
+  date: 2025-02-10T00:00:00.000Z,
+  time: '05:05 AM',
+  description: 'SQL Class',
+  participants: 50,
+  createdAt: 2025-02-01T10:21:31.922Z,
+  updatedAt: 2025-02-01T10:21:31.922Z,
+  __v: 0
+},{
+  _id: new ObjectId('679edee7f5bb1629eed147c5'),
+  date: 2025-02-15T00:00:00.000Z,
+  time: '05:05 AM',
+  description: 'Hadoop Classes',
+  participants: 50,
+  createdAt: 2025-02-02T02:56:39.399Z,
+  updatedAt: 2025-02-02T02:56:39.399Z,
+  __v: 0
+},{
+  _id: new ObjectId('679edefaf5bb1629eed147c9'),
+  date: 2025-02-09T00:00:00.000Z,
+  time: '09:05 AM',
+  description: 'Node Js Classes',
+  participants: 50,
+  createdAt: 2025-02-02T02:56:58.673Z,
+  updatedAt: 2025-02-02T02:56:58.673Z,
+  __v: 0
+},{
+  _id: new ObjectId('679edf0ef5bb1629eed147cd'),
+  date: 2025-02-20T00:00:00.000Z,
+  time: '012:00 AM',
+  description: 'React Js Classes',
+  participants: 50,
+  createdAt: 2025-02-02T02:57:18.764Z,
+  updatedAt: 2025-02-02T02:57:18.764Z,
+  __v: 0
+},{
+  _id: new ObjectId('679ee3e3af8a3ac391a7c3cf'),
+  date: 2025-03-08T00:00:00.000Z,
+  time: '01:00 AM',
+  description: 'Skecthing Classes',
+  participants: 50,
+  createdAt: 2025-02-02T03:17:55.631Z,
+  updatedAt: 2025-02-02T03:17:55.631Z,
+  __v: 0
+},{
+  _id: new ObjectId('679ee769228e38541d014dac'),
+  date: 2025-02-08T00:00:00.000Z,
+  time: '09:00 AM',
+  description: 'Angular Classes',
+  participants: 50,
+  createdAt: 2025-02-02T03:32:57.686Z,
+  updatedAt: 2025-02-02T03:32:57.686Z,
+  __v: 0
+}
+2025-02-02T03:41:03.155Z info: Events controller loaded
+2025-02-02T03:41:03.605Z info: Connected to DB
+2025-02-02T03:41:10.846Z info: Events controller loaded
+2025-02-02T03:41:11.265Z info: Connected to DB
+2025-02-02T03:41:12.498Z info: Events controller loaded
+2025-02-02T03:41:12.893Z info: Connected to DB
+2025-02-02T03:41:25.701Z info: Connected to DB
+2025-02-02T03:41:28.255Z info: Connected to DB
+2025-02-02T03:41:35.869Z info: Connected to DB
+2025-02-02T03:42:04.014Z info: Connected to DB
+2025-02-02T03:42:42.204Z info: Connected to DB
+2025-02-02T03:43:00.254Z info: Connected to DB
+2025-02-02T03:43:08.112Z info: Connected to DB
+2025-02-02T03:48:14.616Z info: Connected to DB
+2025-02-02T03:50:38.759Z info: {
+  _id: new ObjectId('679de3e53c09d9d11eddedad'),
+  date: 2025-02-10T00:00:00.000Z,
+  time: '05:05 AM',
+  description: 'SQL Class',
+  participants: 50,
+  createdAt: 2025-02-01T09:05:41.619Z,
+  updatedAt: 2025-02-01T09:05:41.619Z,
+  __v: 0
+},{
+  _id: new ObjectId('679df5ab3c09d9d11eddedb7'),
+  date: 2025-02-10T00:00:00.000Z,
+  time: '05:05 AM',
+  description: 'SQL Class',
+  participants: 50,
+  createdAt: 2025-02-01T10:21:31.922Z,
+  updatedAt: 2025-02-01T10:21:31.922Z,
+  __v: 0
+},{
+  _id: new ObjectId('679edee7f5bb1629eed147c5'),
+  date: 2025-02-15T00:00:00.000Z,
+  time: '05:05 AM',
+  description: 'Hadoop Classes',
+  participants: 50,
+  createdAt: 2025-02-02T02:56:39.399Z,
+  updatedAt: 2025-02-02T02:56:39.399Z,
+  __v: 0
+},{
+  _id: new ObjectId('679edefaf5bb1629eed147c9'),
+  date: 2025-02-09T00:00:00.000Z,
+  time: '09:05 AM',
+  description: 'Node Js Classes',
+  participants: 50,
+  createdAt: 2025-02-02T02:56:58.673Z,
+  updatedAt: 2025-02-02T02:56:58.673Z,
+  __v: 0
+},{
+  _id: new ObjectId('679edf0ef5bb1629eed147cd'),
+  date: 2025-02-20T00:00:00.000Z,
+  time: '012:00 AM',
+  description: 'React Js Classes',
+  participants: 50,
+  createdAt: 2025-02-02T02:57:18.764Z,
+  updatedAt: 2025-02-02T02:57:18.764Z,
+  __v: 0
+},{
+  _id: new ObjectId('679ee3e3af8a3ac391a7c3cf'),
+  date: 2025-03-08T00:00:00.000Z,
+  time: '01:00 AM',
+  description: 'Skecthing Classes',
+  participants: 50,
+  createdAt: 2025-02-02T03:17:55.631Z,
+  updatedAt: 2025-02-02T03:17:55.631Z,
+  __v: 0
+},{
+  _id: new ObjectId('679ee769228e38541d014dac'),
+  date: 2025-02-08T00:00:00.000Z,
+  time: '09:00 AM',
+  description: 'Angular Classes',
+  participants: 50,
+  createdAt: 2025-02-02T03:32:57.686Z,
+  updatedAt: 2025-02-02T03:32:57.686Z,
+  __v: 0
+}
+2025-02-02T03:51:33.155Z info: Connected to DB
+2025-02-02T03:52:02.845Z info: Register controller
+2025-02-02T03:52:03.256Z info: Connected to DB
+2025-02-02T03:55:38.605Z info: Connected to DB
+2025-02-02T03:57:30.484Z info: Connected to DB
+2025-02-02T03:57:47.883Z info: Connected to DB
+2025-02-02T03:58:16.106Z info: Connected to DB
+2025-02-02T03:58:35.162Z info: Register controller
+2025-02-02T03:58:35.572Z info: Connected to DB
+2025-02-02T04:00:50.375Z info: Registering for event:
+2025-02-02T04:01:02.906Z info: Connected to DB
+2025-02-02T04:01:05.743Z info: Connected to DB
+2025-02-02T04:01:11.006Z info: Connected to DB
+2025-02-02T04:02:01.835Z info: Connected to DB
+2025-02-02T04:03:14.195Z info: Connected to DB
+2025-02-02T04:34:13.584Z info: Connected to DB
