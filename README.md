@@ -67,13 +67,13 @@ To run the Virtual Event Management app locally, follow these steps:
 ## Technologies
 
 The application uses the following technologies:
-Backend:
-Node.js
-Express.js
-MongoDB (Mongoose for data modeling)
-JWT (JSON Web Tokens) for authentication
-Joi for validation
-Bcrypt for password hashing
+-Backend:
+-Node.js
+-Express.js
+-MongoDB (Mongoose for data modeling)
+-JWT (JSON Web Tokens) for authentication
+-Joi for validation
+-Bcrypt for password hashing
 
 ## Features
 
@@ -184,11 +184,11 @@ Response:
 
 ## How to Use
 
-Sign Up: Register a user through the /users/signup endpoint with the role set to either organizer or participant.
-Login: Authenticate and get a JWT token through the /users/login endpoint.
-Create Event: If you are an organizer, use the /events/create endpoint to create an event.
-Register for Event: As a participant, register for an event using the /registration/register/:id endpoint.
-Cancel Registration: If necessary, you can cancel your registration using /registration/cancel/:id.
+-Sign Up: Register a user through the /users/signup endpoint with the role set to either organizer or participant.
+-Login: Authenticate and get a JWT token through the /users/login endpoint.
+-Create Event: If you are an organizer, use the /events/create endpoint to create an event.
+-Register for Event: As a participant, register for an event using the /registration/register/:id endpoint.
+-Cancel Registration: If necessary, you can cancel your registration using /registration/cancel/:id.
 
 ## Database Structure
 
@@ -229,13 +229,13 @@ Registration Model:
 
 ## Contributing
 
-We welcome contributions to improve the Virtual Event Management project. To contribute:
+-We welcome contributions to improve the Virtual Event Management project. To contribute:
 
-Fork the repository.
-Create a new branch for your feature (git checkout -b feature/your-feature).
-Commit your changes (git commit -m 'Add new feature').
-Push to the branch (git push origin feature/your-feature).
-Open a pull request.
+-Fork the repository.
+-Create a new branch for your feature (git checkout -b feature/your-feature).
+-Commit your changes (git commit -m 'Add new feature').
+-Push to the branch (git push origin feature/your-feature).
+-Open a pull request.
 
 ## License
 
