@@ -64,9 +64,9 @@ To run the Virtual Event Management app locally, follow these steps:
    npm start
    This will start the application on http://localhost:3000.
 
-Technologies
-The application uses the following technologies:
+## Technologies
 
+The application uses the following technologies:
 Backend:
 Node.js
 Express.js
@@ -75,7 +75,7 @@ JWT (JSON Web Tokens) for authentication
 Joi for validation
 Bcrypt for password hashing
 
-Features
+## Features
 
 1. User Authentication:
    Sign Up: Register new users with role-based access (Admin, Organizer, Participant).
@@ -92,7 +92,7 @@ Features
    Get All Events: View a list of all upcoming events available for registration.
    Get Event Details: View detailed information about a specific event.
 
-API Endpoints
+## API Endpoints
 
 1. User Authentication
    POST /users/signup
@@ -182,14 +182,16 @@ Response:
 }
 ```
 
-How to Use
+## How to Use
+
 Sign Up: Register a user through the /users/signup endpoint with the role set to either organizer or participant.
 Login: Authenticate and get a JWT token through the /users/login endpoint.
 Create Event: If you are an organizer, use the /events/create endpoint to create an event.
 Register for Event: As a participant, register for an event using the /registration/register/:id endpoint.
 Cancel Registration: If necessary, you can cancel your registration using /registration/cancel/:id.
 
-Database Structure
+## Database Structure
+
 User Model:
 
 ```bash
@@ -225,7 +227,8 @@ Registration Model:
 
 ```
 
-Contributing
+## Contributing
+
 We welcome contributions to improve the Virtual Event Management project. To contribute:
 
 Fork the repository.
@@ -234,5 +237,6 @@ Commit your changes (git commit -m 'Add new feature').
 Push to the branch (git push origin feature/your-feature).
 Open a pull request.
 
-License
+## License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
