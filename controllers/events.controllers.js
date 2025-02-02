@@ -41,6 +41,7 @@ async function createEvent(req, res) {
   }
 }
 
+// Get all events
 async function getAllEvents(req, res) {
   try {
     const events = await Event.find();

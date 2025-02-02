@@ -23,8 +23,11 @@ The **Virtual Event Management** application provides an efficient platform for 
 4. [API Endpoints](#api-endpoints)
 5. [How to Use](#how-to-use)
 6. [Database Structure](#database-structure)
+<<<<<<< HEAD
 7. [Contributing](#contributing)
 8. [License](#license)
+=======
+>>>>>>> e675840 (Code Cleanup)
 
 ---
 
@@ -40,6 +43,7 @@ To run the Virtual Event Management app locally, follow these steps:
 
 ### Steps to Run Locally:
 
+<<<<<<< HEAD
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/99niel/Vitual-Event-Management.git
@@ -143,11 +147,114 @@ Response:
 ```
 
 3. Event Registration
+=======
+**Clone the repository**:
+
+```bash
+git clone https://github.com/99niel/Vitual-Event-Management.git
+```
+
+    Navigate into the project directory:
+
+    bash
+    Copy
+    cd Vitual-Event-Management
+    Install dependencies:
+
+    bash
+    Copy
+    npm install
+    Rename the .env.example file to .env and update it with your environment settings (such as MongoDB URI, JWT secret, etc.).
+
+    bash
+    Copy
+    cp .env.example .env
+    Example .env file:
+
+    makefile
+    Copy
+    PORT=3000
+    MONGO_URI=mongodb://localhost:27017/virtual_event_db
+    JWT_SECRET=your-secret-key
+    Start the application:
+
+    bash
+    Copy
+    npm start
+    This will start the application on http://localhost:3000.
+
+Technologies
+The application uses the following technologies:
+
+Backend:
+Node.js
+Express.js
+MongoDB (Mongoose for data modeling)
+JWT (JSON Web Tokens) for authentication
+Joi for validation
+Bcrypt for password hashing
+Features
+
+    1. User Authentication:
+    Sign Up: Register new users with role-based access (Admin, Organizer, Participant).
+    Login: Return a JWT token after successful authentication.
+    Authorization: Role-based access control ensures that only organizers can create events.
+    2. Event Management:
+    Create Event: Organizers can create events by providing details such as date, time, description, participants, and more.
+    Update Event: Organizers can modify event details.
+    Delete Event: Organizers can delete events if needed.
+    3. Event Registration:
+    Register for Events: Participants can register for any available event.
+    Cancel Registration: Participants can cancel their event registration.
+    4. Event Listing:
+    Get All Events: View a list of all upcoming events available for registration.
+    Get Event Details: View detailed information about a specific event.
+
+API Endpoints 1. User Authentication
+POST /users/signup
+Description: Register a new user.
+Body:
+{
+"name": "John Doe",
+"email": "john.doe@example.com",
+"password": "password123",
+"role": "participant"
+}
+POST /users/login
+Description: Login to an existing account and receive a JWT token.
+Body:
+{
+"email": "john.doe@example.com",
+"password": "password123"
+} 2. Event Management
+POST /events/create
+Description: Create a new event (Organizers only).
+Body:
+{
+"date": "2025-12-25",
+"time": "18:00",
+"description": "Annual Virtual Meetup",
+"participants": 100
+}
+GET /events/all
+Description: Get a list of all available events.
+Response:
+[
+{
+"id": "event_id",
+"date": "2025-12-25",
+"time": "18:00",
+"description": "Annual Virtual Meetup",
+"participants": 100
+}
+] 7. Event Registration
+>>>>>>> e675840 (Code Cleanup)
 POST /registration/register/:id
 Description: Register a participant for an event.
 Params:
 id: Event ID
 Response:
+<<<<<<< HEAD
 ```bash
 {
   "message": "Successfully registered for the event",
@@ -158,11 +265,23 @@ Response:
 }
 ```
 
+=======
+json
+Copy
+{
+"message": "Successfully registered for the event",
+"registration": {
+"eventId": "event_id",
+"userId": "user_id"
+}
+}
+>>>>>>> e675840 (Code Cleanup)
 POST /registration/cancel/:id
 Description: Cancel a participant’s registration for an event.
 Params:
 id: Event ID
 Response:
+<<<<<<< HEAD
 ```bash
 {
   "message": "Successfully canceled registration",
@@ -173,11 +292,23 @@ Response:
 }
 ```
 
+=======
+json
+Copy
+{
+"message": "Successfully canceled registration",
+"registration": {
+"eventId": "event_id",
+"userId": "user_id"
+}
+}
+>>>>>>> e675840 (Code Cleanup)
 How to Use
 Sign Up: Register a user through the /users/signup endpoint with the role set to either organizer or participant.
 Login: Authenticate and get a JWT token through the /users/login endpoint.
 Create Event: If you are an organizer, use the /events/create endpoint to create an event.
 Register for Event: As a participant, register for an event using the /registration/register/:id endpoint.
+<<<<<<< HEAD
 Cancel Registration: If necessary, you can cancel your registration using /registration/cancel/:id.
 
 Database Structure
@@ -223,3 +354,34 @@ Open a pull request.
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
+=======
+Cancel Registration: If necessary, you can cancel your registration using the /registration/cancel/:id.
+Database Structure
+User Model:
+javascript
+Copy
+{
+name: String,
+email: String,
+password: String, // Hashed password
+role: String, // 'organizer' or 'participant'
+}
+Event Model:
+javascript
+Copy
+{
+date: Date,
+time: String,
+description: String,
+participants: Number,
+createdBy: ObjectId, // Reference to the user who created the event
+}
+Registration Model:
+javascript
+Copy
+{
+userId: ObjectId, // Reference to the user
+eventId: ObjectId, // Reference to the event
+status: String, // 'registered' or 'canceled'
+}
+>>>>>>> e675840 (Code Cleanup)

@@ -58,7 +58,6 @@ async function registerForEvent(req, res) {
 async function cancelRegistration(req, res) {
   const { eventId } = req.body;
   try {
-    // Validate eventId
     const schema = joi.object({
       eventId: joi.string().required(),
     });

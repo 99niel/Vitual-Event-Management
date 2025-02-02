@@ -107,6 +107,7 @@ async function loginUser(req, res) {
   }
 }
 
+// Logout User
 async function logoutUser(req, res) {
   try {
     // Clear the JWT from the client side (you can send a response telling the client to remove it)
@@ -125,6 +126,7 @@ async function logoutUser(req, res) {
   }
 }
 
+// Get User Profile
 async function getUserProfile(req, res) {
   const id = req.params.id;
   logger.info("Fetching user with id:", id);
@@ -140,6 +142,7 @@ async function getUserProfile(req, res) {
   }
 }
 
+// Get All User Profiles
 async function getAllUserProfile(req, res) {
   try {
     const users = await User.find();
