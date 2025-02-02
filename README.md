@@ -39,73 +39,78 @@ To run the Virtual Event Management app locally, follow these steps:
 - Git (to clone the repository)
 
 ### Steps to Run Locally:
+
 1. **Clone the repository**:
+
    ```bash
    git clone https://github.com/99niel/Vitual-Event-Management.git
 
+   ```
 
 2. Navigate into the project directory:
-  cd Vitual-Event-Management
+   cd Vitual-Event-Management
 
 3. Install dependencies:
-  npm install
+   npm install
 
 4. Rename the .env.example file to .env and update it with your environment settings (such as MongoDB URI, JWT secret, etc.):
-  cp .env.example .env
-  Example .env file:
-    PORT=3000
-    MONGO_URI=mongodb://localhost:27017/virtual_event_db
-    JWT_SECRET=your-secret-key
+   cp .env.example .env
+   Example .env file:
+   PORT=3000
+   MONGO_URI=mongodb://localhost:27017/virtual_event_db
+   JWT_SECRET=your-secret-key
 
 5. Start the application:
-    npm start
+   npm start
    This will start the application on http://localhost:3000.
 
-
 Technologies
-  The application uses the following technologies:
-  
-  Backend:
-  Node.js
-  Express.js
-  MongoDB (Mongoose for data modeling)
-  JWT (JSON Web Tokens) for authentication
-  Joi for validation
-  Bcrypt for password hashing
+The application uses the following technologies:
 
+Backend:
+Node.js
+Express.js
+MongoDB (Mongoose for data modeling)
+JWT (JSON Web Tokens) for authentication
+Joi for validation
+Bcrypt for password hashing
 
 Features
-  1. User Authentication:
-  Sign Up: Register new users with role-based access (Admin, Organizer, Participant).
-  Login: Return a JWT token after successful authentication.
-  Authorization: Role-based access control ensures that only organizers can create events.
-  2. Event Management:
-  Create Event: Organizers can create events by providing details such as date, time, description, participants, and more.
-  Update Event: Organizers can modify event details.
-  Delete Event: Organizers can delete events if needed.
-  3. Event Registration:
-  Register for Events: Participants can register for any available event.
-  Cancel Registration: Participants can cancel their event registration.
-  4. Event Listing:
-  Get All Events: View a list of all upcoming events available for registration.
-  Get Event Details: View detailed information about a specific event.
+
+1. User Authentication:
+   Sign Up: Register new users with role-based access (Admin, Organizer, Participant).
+   Login: Return a JWT token after successful authentication.
+   Authorization: Role-based access control ensures that only organizers can create events.
+2. Event Management:
+   Create Event: Organizers can create events by providing details such as date, time, description, participants, and more.
+   Update Event: Organizers can modify event details.
+   Delete Event: Organizers can delete events if needed.
+3. Event Registration:
+   Register for Events: Participants can register for any available event.
+   Cancel Registration: Participants can cancel their event registration.
+4. Event Listing:
+   Get All Events: View a list of all upcoming events available for registration.
+   Get Event Details: View detailed information about a specific event.
 
 API Endpoints
+
 1. User Authentication
-POST /users/signup
-Description: Register a new user.
- ```bash
+   POST /users/signup
+   Description: Register a new user.
+
+```bash
 Body:{
-  "name": "John Doe",
-  "email": "john.doe@example.com",
-  "password": "password123",
-  "role": "participant"
+ "name": "John Doe",
+ "email": "john.doe@example.com",
+ "password": "password123",
+ "role": "participant"
 }
 ```
 
 POST /users/login
 Description: Login to an existing account and receive a JWT token.
 Body:
+
 ```bash
 {
   "email": "john.doe@example.com",
@@ -114,9 +119,10 @@ Body:
 ```
 
 2. Event Management
-POST /events/create
-Description: Create a new event (Organizers only).
-Body:
+   POST /events/create
+   Description: Create a new event (Organizers only).
+   Body:
+
 ```bash
 {
   "date": "2025-12-25",
@@ -129,6 +135,7 @@ Body:
 GET /events/all
 Description: Get a list of all available events.
 Response:
+
 ```bash
 [
   {
@@ -159,7 +166,6 @@ Response:
 }
 ```
 
-
 POST /registration/cancel/:id
 Description: Cancel a participant’s registration for an event.
 Params:
@@ -185,6 +191,7 @@ Cancel Registration: If necessary, you can cancel your registration using /regis
 
 Database Structure
 User Model:
+
 ```bash
 {
   name: String,
@@ -193,7 +200,9 @@ User Model:
   role: String, // 'organizer' or 'participant'
 }
 ```
+
 Event Model:
+
 ```bash
 {
   date: Date,
@@ -204,7 +213,9 @@ Event Model:
 }
 
 ```
+
 Registration Model:
+
 ```bash
 {
   userId: ObjectId, // Reference to the user
@@ -225,4 +236,3 @@ Open a pull request.
 
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
-
